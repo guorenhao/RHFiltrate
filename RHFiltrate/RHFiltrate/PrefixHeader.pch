@@ -1,0 +1,50 @@
+//
+//  PrefixHeader.pch
+//  WutongSchool
+//
+//  Created by 郭人豪 on 2016/10/19.
+//  Copyright © 2016年 Abner_G. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/****** 第三方库 ******/
+#import <Masonry.h>
+
+/****** 宏 ******/
+//宽高
+#define Screen_Width       [UIScreen mainScreen].bounds.size.width
+#define Screen_Height      [UIScreen mainScreen].bounds.size.height
+//字体
+#define H22                [UIFont systemFontOfSize:22]
+#define H20                [UIFont systemFontOfSize:20]
+#define H18                [UIFont systemFontOfSize:18]
+#define H16                [UIFont systemFontOfSize:16]
+#define H15                [UIFont systemFontOfSize:15]
+#define H14                [UIFont systemFontOfSize:14]
+#define H13                [UIFont systemFontOfSize:13]
+#define H12                [UIFont systemFontOfSize:12]
+#define H11                [UIFont systemFontOfSize:11]
+#define H10                [UIFont systemFontOfSize:10]
+//颜色
+#define Color_RGB(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0  alpha:1.0]
+
+#define Color_BG           Color_RGB(245, 245, 245)
+#define Color_Line         Color_RGB(240, 240, 240)
+#define Color_H1           Color_RGB(77, 77, 77)
+#define Color_Random       [UIColor colorWithRed:arc4random()%256/255.0 green:arc4random()%256/255.0 blue:arc4random()%256/255.0 alpha:1.0]
+
+#define Color_White        [UIColor whiteColor]
+#define Color_Gray         [UIColor grayColor]
+#define Color_LightGray    [UIColor lightGrayColor]
+#define Color_Black        [UIColor blackColor]
+#define Color_Red          [UIColor redColor]
+#define Color_Clear        [UIColor clearColor]
+#define Color_Green        [UIColor greenColor]
+#define Color_Blue         [UIColor blueColor]
+#define Color_Orange       [UIColor orangeColor]
+#define Color_Yellow       [UIColor yellowColor]
+
+
+#endif /* PrefixHeader_pch */
